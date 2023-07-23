@@ -283,6 +283,6 @@ protected:
     int         __sda                   = -1;
     int         __scl                   = -1;
     uint8_t     __addr                  = 0xFF;
-    iic_fptr_t  thisReadRegCallback     = NULL;
-    iic_fptr_t  thisWriteRegCallback    = NULL;
+    iic_fptr_t  thisReadRegCallback     = 0;
+    iic_fptr_t  thisWriteRegCallback    = 0;
 };
