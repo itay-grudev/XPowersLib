@@ -2568,7 +2568,7 @@ public:
     {
         for (int i = 0; i < XPOWERS_AXP2101_INTSTS_CNT; i++) {
             uint8_t val =  readRegister(XPOWERS_AXP2101_INTEN1 + i);
-            printf("INT[%d] HEX:0x%X\n", i, val);
+            // printf("INT[%d] HEX:0x%X\n", i, val);
         }
     }
 #endif
