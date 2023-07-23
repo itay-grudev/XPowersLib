@@ -35,7 +35,7 @@
 #include <Wire.h>
 #endif
 
-
+#include <stdint.h>
 
 #ifdef _BV
 #undef _BV
